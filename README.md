@@ -17,3 +17,11 @@
 4、 100%修正的判定/条件覆盖（Modified Decision/Condition  Coverage）的测试用例集合 并基于附件给出的LogicalCoverageCaseStudy，编写RepayMCDCCoverageTest 测试类并采用jacoco衡量Line Coverage和Branch Coverage
 
 5、  使用变异测试工具Pitest评估上述4个测试集合的揭错能力，提交分析报告到PiTestReport中
+
+#### 作业分析
+![img.png](img.png)
+* 首先，根据代码的结构对各个条件和分支清晰的划分，画出简要的流程图
+* 进而，从四个角度分析，构造`语句覆盖`，`判定覆盖`，`条件覆盖`，`判定/条件覆盖`的测试样例
+* 分析jacoco生成的测试覆盖率报告
+
+1. 语句覆盖

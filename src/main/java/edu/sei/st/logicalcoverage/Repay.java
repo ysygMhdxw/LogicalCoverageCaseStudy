@@ -24,6 +24,7 @@ public class Repay {
 
     public String doRepay(){
 
+
         if (isCardValid && isNameValid && balance.compareTo(BigDecimal.ZERO)>0) {
             if(isTotal || isPart){
                 if(payment.compareTo(new BigDecimal(10.00))>=0)
